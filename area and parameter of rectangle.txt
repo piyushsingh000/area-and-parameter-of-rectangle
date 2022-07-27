@@ -1,0 +1,23 @@
+// P=2(l+w)
+
+
+#include <iostream>
+using namespace std;
+int main () {
+     int length;
+     int width;
+     int area;
+     int parameter;
+     cout<<"Enter the value of length: ";
+     cin>>length;
+     cout<<"Enter the value of width: ";
+     cin>>width;
+     area = length * width ;
+     parameter = (length+width)*2 ;
+     cout<<"Area of rectrangle is : "<<area<<"\n";
+     cout<<"Parameter of rectangle is :"<<parameter<<"\n";
+     return 0;
+     
+     
+     
+}
